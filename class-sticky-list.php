@@ -917,6 +917,7 @@ if (class_exists("GFForms")) {
                             $entry["is_read"] = $original_entry["is_read"];
                             $entry["is_starred"] = $original_entry["is_starred"];
                             $entry["created_by"] = $original_entry["created_by"];
+			    $entry["date_created"] = $original_entry["date_created"];
 
                             // Look for admin only fields and pass them on from the original entry
                             foreach ($form["fields"] as $field) {
